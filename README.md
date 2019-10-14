@@ -16,11 +16,11 @@ npm install -g gitbook-cli
 gitbook serve
 ```  
 
-3. 编译gitbook
+3. 部署到服务器
 
 ```  
 gitbook build
 ```  
+编译之后的文档在`_book`文件夹中，只需将文件夹部署到服务器即可访问。    
 
-编译之后的文档在`_book`文件夹中，只需将文件夹部署到服务器即可访问。   
 你可以直接访问我已经部署好的项目 [http://python100.leonlei.top](http://python100.leonlei.top)
