@@ -1,0 +1,6 @@
+node_modules/
+.project
+unpackage/
+.vscode/
+_book/
+.DS_Store

@@ -1,0 +1,56 @@
+{
+    "title": "Python100天",
+    "author" : "Leon",
+    "description" : "python从入门到精通",
+    "language" : "zh-hans",
+    "structure": {
+        "readme": "INTRO.md"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-pro",
+        "back-to-top-button",
+        "chapter-fold",
+        "expandable-chapters",
+        "splitter",
+        "accordion",
+        "hide-element",
+        "tbfed-pagefooter",
+        "lightbox"
+    ],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "isShowTocTitleIcon": true
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Leon",
+            "modify_label": "该文件最后修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "prism": {
+          "lang": {
+            "shell": "bash"
+          }
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false, 
+            "showGoTop": false
+        }
+    },
+    "links" : {
+        "sidebar" : {
+        }
+    },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    }
+}
+
