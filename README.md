@@ -4,19 +4,19 @@
 
 为了方便阅读，将文档整理制成了gitbook电子书，使用步骤：
 
-1. 安装gitbook
+## 1.安装gitbook
 
 ```  
 npm install -g gitbook-cli
 ```  
 
-2. 安装依赖  
+## 2.安装依赖  
 
 ```  
 gitbook install
 ```
 
-3. 阅读
+## 3.阅读
 
 (1) 本地预览
 
