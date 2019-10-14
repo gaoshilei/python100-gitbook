@@ -10,17 +10,26 @@
 npm install -g gitbook-cli
 ```  
 
-2. 启动本地服务  
+2. 安装依赖  
+
+```  
+gitbook install
+```
+
+3. 阅读
+
+(1) 本地预览
 
 ```  
 gitbook serve
 ```  
 
-3. 部署到服务器
+(2) 部署到服务器
 
 ```  
 gitbook build
 ```  
+
 编译之后的文档在`_book`文件夹中，只需将文件夹部署到服务器即可访问。    
 
 你可以直接访问我已经部署好的项目 [http://python100.leonlei.top](http://python100.leonlei.top)
